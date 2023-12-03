@@ -3,14 +3,17 @@ body {
 }
 
 header {
-    background-color: #a00;
-    padding-block: 10px;
+    width: 100%;
+    padding-block: 8px;
+    background-color: #a00b;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: fixed;
 }
 
 header > a {
+    margin-inline: 20px;
     padding: 8px;
     color:yellow;
     font-size: 28px;
