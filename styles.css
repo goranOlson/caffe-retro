@@ -55,17 +55,28 @@ section .content {
     left: 0;
     right: 0;
     
-    background-color: #ada8;
+    /*background-color: #ada8;*/
 }
 
 section p {
     width: 80%;
     margin-inline: auto;
-
-    background-color: #aaa;
+    padding: 8px;
+    color: white;
+    background-color: #111;
+    opacity: 0.7;
 }
 
-section p.toleft {
+section p.to-left,
+section p.to-right {
+    background-color: #b00;
+    text-align: center;
+}
+
+section p.to-left {
     margin-left: 0;
+}
+section p.to-right {
+    margin-right: 0;
 }
 
