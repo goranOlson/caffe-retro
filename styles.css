@@ -10,12 +10,19 @@ header {
     flex-direction: row;
     justify-content: center;
     position: fixed;
+    background-color: #101a;
+    
 }
 
-header > a {
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
     margin-inline: 20px;
     padding: 8px;
-    color:yellow;
+    color:white;
     font-size: 28px;
     font-weight: bold;
     text-decoration: none;
@@ -41,7 +48,7 @@ h1 {
     margin-right: auto;
     margin-block: 0;
 
-    color: red;
+    color: #a00;
     font-size: 70px;
 
 }
@@ -61,10 +68,11 @@ section .content {
 section p {
     width: 80%;
     margin-inline: auto;
+    margin-block: 28px;
     padding: 8px;
     color: white;
     background-color: #111;
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
 section p.to-left,
