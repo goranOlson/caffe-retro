@@ -1,3 +1,8 @@
+html {
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Spirax', sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -88,3 +93,7 @@ section p.to-right {
     margin-right: 0;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
