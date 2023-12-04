@@ -1,6 +1,6 @@
 html {
-    font-family: 'Poiret One', sans-serif;
-    font-family: 'Spirax', sans-serif;
+    
+    
 }
 
 body {
@@ -29,8 +29,8 @@ nav a {
     padding: 8px;
     color:white;
     font-size: 28px;
-    font-weight: bold;
     text-decoration: none;
+    font-family: 'Spirax', sans-serif;
 }
 
 #hot {
@@ -53,9 +53,9 @@ h1 {
     margin-right: auto;
     margin-block: 0;
 
-    color: #a00;
+    color: #800;
     font-size: 70px;
-
+    font-family: 'Spirax', sans-serif;
 }
 
 section .content {
@@ -70,7 +70,8 @@ section .content {
     /*background-color: #ada8;*/
 }
 
-section p {
+section p,
+section div.content > ul {
     width: 80%;
     margin-inline: auto;
     margin-block: 28px;
@@ -78,6 +79,7 @@ section p {
     color: white;
     background-color: #111;
     opacity: 0.75;
+    font-family: 'Poiret One', sans-serif;
 }
 
 section p.to-left,
@@ -92,6 +94,39 @@ section p.to-left {
 section p.to-right {
     margin-right: 0;
 }
+
+
+
+p.list .item {
+    width: 100%;
+}
+
+p.list .price {
+    width: 100px;
+    background-color: orange;
+    text-align: right;
+}
+
+
+div.content > ul {
+    list-style-type: none;
+
+    background-color: orange;
+}
+
+div.content > ul li {
+    padding: 4px 24px;
+    
+}
+
+div.content li .price {
+    width: 100px;
+    min-width: 100px;
+    float: right;
+    text-align: right;
+    background: orange;
+}
+
 
 @font-face {
   font-family: myFirstFont;
