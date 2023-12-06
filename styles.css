@@ -1,21 +1,19 @@
+* {
+    margin: 0;
+}
 html, body {
     height: 100%;
-    
-}
-
-body {
-    margin: 0;
+    scroll-behavior: smooth;
 }
 
 header {
     width: 100%;
     padding-block: 8px;
-    background-color: #a00b;
+    background-color: #101a;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: fixed;
-    background-color: #101a;
     z-index: 100;
 }
 
@@ -37,10 +35,12 @@ section {
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    position: relative;
-    border-bottom: 12px solid #900;
+    /*position: relative;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-section:last-of-type { border: 0;}
 
 /* repeat and size MUDT be for each section bgimage! */
 #hot {
@@ -48,15 +48,22 @@ section:last-of-type { border: 0;}
     background-repeat:no-repeat;
     background-size:cover;
 }
-#juicy { background:url("juicy.jpg");
+
+#juicy {
+    background:url("juicy.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
+
 #cosy {
      background:url("cosy.jpg");
      background-repeat:no-repeat;
      background-size:cover;
- }
+}
+
+#hot, #juicy {
+    border-bottom: 12px solid #900;
+}
 
 h1 {
     width: max-content;
@@ -71,11 +78,6 @@ h1 {
 section .content {
     width: 70%;
     margin-inline: auto;
-    position: absolute;
-    top: 30%;
-    top: 150px;
-    left: 0;
-    right: 0;
 }
 
 section p,
