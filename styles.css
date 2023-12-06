@@ -44,19 +44,19 @@ section {
 
 /* repeat and size MUDT be for each section bgimage! */
 #hot {
-    background:url("hot.jpg");
+    background:url("img/hot.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
 
 #juicy {
-    background:url("juicy.jpg");
+    background:url("img/juicy.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
 
 #cosy {
-     background:url("cosy.jpg");
+     background:url("img/cosy.jpg");
      background-repeat:no-repeat;
      background-size:cover;
 }
